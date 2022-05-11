@@ -1,6 +1,7 @@
 import mysql
 
 import mysql.connector
+#pip install mysql-connector-python
 class db:
     def __init__(self):
         self.db = mysql.connector.connect(host="localhost",user="root",passwd="root",database="java_demo",auth_plugin='mysql_native_password')
